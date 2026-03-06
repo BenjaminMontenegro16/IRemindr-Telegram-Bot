@@ -101,9 +101,7 @@ IRemindr-Telegram-Bot/
 
 ## What I Learned
 
-- Async Python with `asyncio` and `async/await`
 - Job scheduling with APScheduler
-- PostgreSQL integration with `psycopg2`
 - Managing environment variables securely
 - Deploying a bot with a persistent database on Railway
 
