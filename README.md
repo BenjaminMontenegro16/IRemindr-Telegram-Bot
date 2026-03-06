@@ -113,4 +113,4 @@ MIT License — feel free to use and modify.
 
 ---
 
-*Built by [Benjamin Montenegro Bär](https://github.com/BenjaminMontenegro16)*
+*Built by [Benjamin Montenegro](https://github.com/BenjaminMontenegro16)*
