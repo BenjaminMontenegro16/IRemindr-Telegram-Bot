@@ -108,7 +108,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         InlineKeyboardButton("🇪🇸 Español", callback_data="lang_es")
     ]]
     reply_markup = InlineKeyboardMarkup(keyboard)
-    await update.message.reply_text("Welcome to IRemindr! Choose your language:\nBienvenido a IRemindr! Elegi el lenguaje:", reply_markup=reply_markup)
+    await update.message.reply_text("Welcome to IRemindr! Choose your language:\nBienvenido a IRemindr! Elija el lenguaje:", reply_markup=reply_markup)
 
 async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
     lang = user_languages.get(update.message.from_user.id, "en")
@@ -216,6 +216,7 @@ async def clearall(update: Update, context: ContextTypes.DEFAULT_TYPE):
     conn.close()
     # Reply this
     await update.message.reply_text(TEXTS[lang]["clearall_success"])
+
 
 # Main with all the app builder and command handler stuff
 def main():
